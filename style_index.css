@@ -92,3 +92,18 @@ body
   position: relative;
 
 }
+@media(max-width:480px)
+{ .foot
+  {
+    height: 15vh;
+  }
+  .link
+   {
+     flex-direction: column;
+   }
+   .l
+   {
+     width:30vh!important;
+
+   }
+}
