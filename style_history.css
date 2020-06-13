@@ -1,0 +1,27 @@
+
+.tab-content
+{
+  margin-left: 20vw;
+}
+@media(max-width:575px)
+{  .tab-content
+  {
+    margin-left: 30vw;
+  }
+  #v-pills-tab
+  {
+    width:20vw;
+    
+  }
+}
+@media(max-width:345px)
+{
+  #v-pills-tab
+  {
+    display: none;
+  }
+  .tab-content
+  {
+    margin-left:0px;
+  }
+}
