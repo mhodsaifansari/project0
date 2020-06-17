@@ -1,16 +1,16 @@
 
 .tab-content
 {
-  margin-left: 20vw;
+  margin-left: 18vw;
 }
 @media(max-width:575px)
 {  .tab-content
   {
-    margin-left: 30vw;
+    margin-left: 30%;
   }
   #v-pills-tab
   {
-    width:20vw;
+    width:30vw;
     
   }
 }
@@ -24,4 +24,23 @@
   {
     margin-left:0px;
   }
+}
+.para
+{
+  display: flex;
+  flex-direction: row;
+}
+.para p
+{ width:80vw;
+ margin-left: 5px;
+ margin-right: 5px;
+}
+.para figure
+{ margin-left:10px;
+  margin-right: 10px;
+  width:20vw;
+}
+.para figure img
+{
+  max-width: 20vw;
 }
