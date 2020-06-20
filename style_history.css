@@ -1,7 +1,7 @@
 
 .tab-content
 {
-  margin-left: 18vw;
+  margin-left: 20vw;
 }
 @media(max-width:575px)
 {  .tab-content
@@ -12,6 +12,10 @@
   {
     width:30vw;
     
+  }
+  .para
+  {
+    flex-direction: column;
   }
 }
 @media(max-width:345px)
@@ -31,14 +35,14 @@
   flex-direction: row;
 }
 .para p
-{ width:80vw;
+{ max-width:80vw;
  margin-left: 5px;
  margin-right: 5px;
 }
 .para figure
 { margin-left:10px;
   margin-right: 10px;
-  width:20vw;
+  max-width:20vw;
 }
 .para figure img
 {

@@ -1,0 +1,18 @@
+.main_body
+{   display: flex;
+    flex-direction: row;
+    width:100vw;
+    height: 100vh;
+    
+}
+.para
+{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.para img
+{ max-width: 40vw;
+  min-width: 100px;
+ align-self:center;
+}
