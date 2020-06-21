@@ -1,0 +1,20 @@
+._landmark
+{ max-width:70vw;
+  max-height:70vh;
+  
+
+  text-align: center;
+}
+._table
+{
+
+    display: flex;
+    justify-content: center;
+}
+
+.btn
+{
+    background-color: transparent;
+    border-style: none;
+   
+}
