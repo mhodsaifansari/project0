@@ -3,7 +3,7 @@
   max-height:70vh;
   
 
-  text-align: center;
+ 
 }
 ._table
 {
@@ -11,10 +11,17 @@
     display: flex;
     justify-content: center;
 }
-
-.btn
+@media(max-width:412px)
 {
+  ._table{
+    justify-content: flex-start;
+  }
+}
+.btn
+{ width:100%;
+  height: 100%;
     background-color: transparent;
     border-style: none;
-   
+   text-align: left;
+   padding-left: 2px;
 }
