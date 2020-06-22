@@ -11,7 +11,7 @@
     display: flex;
     justify-content: center;
 }
-@media(max-width:412px)
+@media(max-width:500px)
 {
   ._table{
     justify-content: flex-start;
