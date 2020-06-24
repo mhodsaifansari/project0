@@ -1,0 +1,50 @@
+body
+{
+    background-color:#121212;
+    color: #ffffffde;
+  //index.html darkmode
+   .index_photo
+   {
+       background-image: linear-gradient(0deg,#121212,rgba(0,0,0,0.2)),url("photo_index.jpg");
+   }
+   .foot
+   {
+       background-color: rgba(176, 224, 230,0.2);
+    }
+    #l1
+    {
+        background-color: #5b281b;
+    }
+    #l2
+    {
+        background-color: #0d3f13;
+    }
+    #l3
+    {
+        background-color: #4d047c;
+    }
+    #l4
+    {
+        background-color: #2a7d3c;
+    }
+  //index.html end
+
+  //history.html darkmode
+   .card
+   {
+       background-color:#121212;
+       border-color: #ffffff7e;
+   }
+   
+  //history.html end
+  //landmark.html
+  td,th
+  {
+      color: #ffffffde;
+  }   
+  .popover-body
+  { color:#ffffffde;
+    background-color:#252525af;
+  }
+  //landmark.html end
+}

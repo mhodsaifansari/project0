@@ -81,7 +81,7 @@ body
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  background-color: powderblue;
+  background-color: rgb(176, 224, 230);
 }
 .foot div
 {
