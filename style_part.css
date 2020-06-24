@@ -1,0 +1,13 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+}
+._part
+{
+   align-self: center;
+}
+.para img
+{
+    max-width:70vw;
+}

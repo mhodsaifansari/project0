@@ -1,6 +1,9 @@
+body, body td, body th, body .popover-body {
+  color: #ffffffde;
+}
+
 body {
   background-color: #121212;
-  color: #ffffffde;
 }
 
 body .index_photo {
@@ -33,12 +36,7 @@ body .card {
   border-color: #ffffff7e;
 }
 
-body td, body th {
-  color: #ffffffde;
-}
-
 body .popover-body {
-  color: #ffffffde;
   background-color: #252525af;
 }
 /*# sourceMappingURL=mode.css.map */

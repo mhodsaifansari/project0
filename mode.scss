@@ -1,7 +1,11 @@
+%textcolor
+{
+    color: #ffffffde;
+}
 body
 {
     background-color:#121212;
-    color: #ffffffde;
+    @extend %textcolor;
   //index.html darkmode
    .index_photo
    {
@@ -40,10 +44,10 @@ body
   //landmark.html
   td,th
   {
-      color: #ffffffde;
+    @extend %textcolor;
   }   
   .popover-body
-  { color:#ffffffde;
+  { @extend %textcolor;
     background-color:#252525af;
   }
   //landmark.html end
