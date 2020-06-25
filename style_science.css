@@ -8,11 +8,26 @@
 .para
 {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-content: center;
 }
-.para img
-{ max-width: 40vw;
+.para >img
+{ max-width: 80vw;
   min-width: 100px;
  align-self:center;
+}
+@media(max-width:400px)
+{
+    .para .card
+    {
+    width:100vw;
+    }
+    .card-img-top
+    {
+        width:100vw;
+    }
+    .para > img
+    {
+        max-width:100vw;
+    }
 }
