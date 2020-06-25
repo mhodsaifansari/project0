@@ -8,6 +8,48 @@ body
    align-self: center;
 }
 .para img
-{
+{  
     max-width:70vw;
+   
+}
+
+._nav
+{ 
+    display: flex;
+    flex-direction: row;
+justify-content: space-between;
+}
+._nav > a
+{
+   align-self: center;
+  margin-right: 5vw; 
+}
+.para
+{
+    display: flex;
+    flex-direction: row-reverse;
+}
+._image
+{
+    margin-right: 10px;
+    margin-left: 3px;
+}
+@media(max-width:500px)
+{
+.para
+{
+    display: block;
+}
+._image
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.sub
+{
+    margin-left: 5px;
+    margin-right: 5px;
+}
 }
