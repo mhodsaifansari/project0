@@ -3,6 +3,11 @@
     margin: 0;
     padding: 0;
 }
+.main
+{
+  display: flex;
+  flex-direction: column;
+}
 html
 {
     height: 100%;
@@ -11,12 +16,13 @@ body
 {  text-align: center;
     height: 100%;
      overflow-x: hidden;
-}
+
+    }
 .index_photo
-{
+{  
     background-image:linear-gradient(180deg,rgba(255,255,255,0.2),rgba(0,0,0,0)),url("photo_index.jpg");
     background-repeat:no-repeat ;
-    height: 100%;
+    height: 100vh;
     background-position: center;
     background-size: cover;
 }
@@ -28,7 +34,7 @@ body
 }
 .links_
 {  
-    height:80vh;
+    max-height:70rem;
 
 }
 .link
@@ -41,6 +47,10 @@ body
     justify-content: space-around;
     align-items: center;
    
+}
+p
+{
+  margin:0;
 }
 #l1
 {
@@ -67,8 +77,10 @@ body
     margin-right: 10vw;
     margin-top: 5vh;
     margin-bottom: 5vh;
-   align-self: center;
- 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
   }
 .l:hover
 {
@@ -81,11 +93,12 @@ body
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  
   background-color: rgb(176, 224, 230);
 }
 .foot div
 {
-  padding-top: 2vh;
+  align-self:center;
 }
 .blockquote
 {
